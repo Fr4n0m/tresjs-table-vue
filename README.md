@@ -1,5 +1,7 @@
 # Configurador de Escritorio 3D 🖥️
 
+![treejs-desk-vue-1](https://github.com/user-attachments/assets/6ddb0f47-bdd0-4256-a737-bbf9e5b3bedf)
+
 Un configurador interactivo de escritorio en 3D construido con Vue 3 y TresJS (Three.js).
 
 ## 📋 Descripción
