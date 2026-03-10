@@ -5,19 +5,19 @@ const tableMaterials = [
     name: 'Light Wood',
     path: '/materials/Wood048_2K-JPG',
     filename: 'Wood048_2K-JPG',
-    thumbnail: '/materials/Wood048_2K-JPG/Wood048.png',
+    thumbnail: '/materials/Wood048_2K-JPG/Wood048.webp',
   },
   {
     name: 'Dark Wood',
     path: '/materials/WoodFloor008_2K-JPG',
     filename: 'WoodFloor008_2K-JPG',
-    thumbnail: '/materials/WoodFloor008_2K-JPG/WoodFloor008.png',
+    thumbnail: '/materials/WoodFloor008_2K-JPG/WoodFloor008.webp',
   },
   {
     name: 'Orange Wood',
     path: '/materials/Wood069_2K-JPG',
     filename: 'Wood069_2K-JPG',
-    thumbnail: '/materials/Wood069_2K-JPG/Wood069.png',
+    thumbnail: '/materials/Wood069_2K-JPG/Wood069.webp',
   },
 ]
 
