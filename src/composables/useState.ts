@@ -1,24 +1,23 @@
-import { metalness } from 'three/webgpu'
 import { reactive, toRefs } from 'vue'
 
 const tableMaterials = [
   {
     name: 'Light Wood',
-    path: '/public/materials/Wood048_2K-JPG',
+    path: '/materials/Wood048_2K-JPG',
     filename: 'Wood048_2K-JPG',
-    thumbnail: '/public/materials/Wood048_2K-JPG/Wood048.png',
+    thumbnail: '/materials/Wood048_2K-JPG/Wood048.png',
   },
   {
     name: 'Dark Wood',
-    path: '/public/materials/WoodFloor008_2k-JPG',
+    path: '/materials/WoodFloor008_2K-JPG',
     filename: 'WoodFloor008_2K-JPG',
-    thumbnail: '/public/materials/WoodFloor008_2k-JPG/WoodFloor008.png',
+    thumbnail: '/materials/WoodFloor008_2K-JPG/WoodFloor008.png',
   },
   {
     name: 'Orange Wood',
-    path: '/public/materials/Wood069_2k-JPG',
+    path: '/materials/Wood069_2K-JPG',
     filename: 'Wood069_2K-JPG',
-    thumbnail: '/public/materials/Wood069_2k-JPG/Wood069.png',
+    thumbnail: '/materials/Wood069_2K-JPG/Wood069.png',
   },
 ]
 
