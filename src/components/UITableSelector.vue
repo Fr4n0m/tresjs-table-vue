@@ -6,7 +6,7 @@ const { tableMaterials, selectedTableMaterial } = useState()
 
 <template>
   <h2 class="mt-8 scroll-m-20 text-lg font-semibold tracking-tight">
-    Acabado de la tabla
+    Table finish
   </h2>
   <ul class="py-8 flex gap-4 flex-wrap list-none justify-start ml-0 pl-0">
     <li

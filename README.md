@@ -45,6 +45,67 @@ La aplicación estará disponible en `http://localhost:5173`
 pnpm build
 ```
 
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si quieres proponer mejoras, abre un issue o envía una Pull Request.
+
 ## 📄 Licencia
+
+MIT
+
+---
+
+# 3D Desk Configurator 🖥️
+
+![treejs-desk-vue-1](https://github.com/user-attachments/assets/6ddb0f47-bdd0-4256-a737-bbf9e5b3bedf)
+
+An interactive 3D desk configurator built with Vue 3 and TresJS (Three.js).
+
+## 📋 Description
+
+A web application that lets users customize a standing desk with different finish and color options. The configurator includes an interactive 3D view with laptop, headphones, and decorative plant models.
+
+## ✨ Features
+
+- Interactive 3D view with orbit controls
+- Desk finish customization
+- Color selection for accessories (laptop, headphones, plant)
+- Optimized "on-demand" rendering
+- Intuitive UI with real-time preview
+- Debug tools with performance graphs
+
+## 🛠️ Technologies
+
+- **Vue 3** - JavaScript framework
+- **TresJS** - Three.js integration for Vue
+- **TypeScript** - Static typing
+- **Vite** - Build tool
+- **UnoCSS** - CSS framework
+
+## 📦 Installation
+
+```bash
+pnpm install
+```
+
+## 🚀 Development
+
+```bash
+pnpm dev
+```
+
+The app will be available at `http://localhost:5173`
+
+## 🏗️ Build
+
+```bash
+pnpm build
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to suggest improvements, feel free to open an issue or submit a Pull Request.
+
+## 📄 License
 
 MIT

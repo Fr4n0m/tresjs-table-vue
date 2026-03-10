@@ -6,7 +6,7 @@ const { accessoriesColors, selectedAccessoriesColor } = useState()
 
 <template>
   <h2 class="mt-8 scroll-m-20 text-lg font-semibold tracking-tight">
-    Color de los accesorios de la mesa
+    Desk accessory color
   </h2>
   <ul class="py-8 flex gap-4 flex-wrap list-none justify-start ml-0 pl-0">
     <li
