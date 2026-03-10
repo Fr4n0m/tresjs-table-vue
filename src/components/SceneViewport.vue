@@ -26,7 +26,7 @@ function onRender() {
 
 <template>
   <TresLeches />
-  <TresCanvas render-mode="on-demand" alpha @render="onRender">
+  <TresCanvas render-mode="always" alpha @render="onRender">
     <TheExperience />
   </TresCanvas>
 </template>
