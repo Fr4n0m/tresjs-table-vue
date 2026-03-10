@@ -11,4 +11,21 @@ export default defineConfig({
     }),
     UnoCSS(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules/three')) {
+            return 'three'
+          }
+          if (id.includes('node_modules/@tresjs')) {
+            return 'tresjs'
+          }
+          if (id.includes('node_modules/vue')) {
+            return 'vue'
+          }
+        },
+      },
+    },
+  },
 })
