@@ -25,7 +25,7 @@
   "dependencies": {
     "@tresjs/cientos": "4.3.0",
     "@tresjs/core": "4.3.1",
-    "@tresjs/leches": "https://pkg.pr.new/@tresjs/leches@a22e6d6",
+    "@tresjs/leches": "^0.14.1",
     "three": "^0.170.0",
     "vue": "^3.4.32"
   },
