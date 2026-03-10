@@ -1,9 +1,7 @@
 <script setup lang="ts">
 import { ContactShadows, Environment, OrbitControls } from '@tresjs/cientos'
-import TheLaptop from './TheLaptop.vue'
+import TheAccessories from './TheAccessories.vue'
 import TheStandingDesk from './TheStandingDesk.vue'
-import ThePlant from './ThePlant.vue'
-import TheHeadphones from './TheHeadphones.vue'
 </script>
 
 <template>
@@ -34,16 +32,10 @@ import TheHeadphones from './TheHeadphones.vue'
     cast-shadow
   />
   <Suspense>
-    <TheLaptop />
-  </Suspense>
-  <Suspense>
     <TheStandingDesk />
   </Suspense>
   <Suspense>
-    <ThePlant />
-  </Suspense>
-  <Suspense>
-    <TheHeadphones />
+    <TheAccessories />
   </Suspense>
   <ContactShadows
     :opacity="1"
