@@ -1,111 +1,139 @@
-# Configurador de Escritorio 3D 🖥️
+# 3D Desk Configurator / Configurador de Escritorio 3D
+
+[![Vue 3](https://img.shields.io/badge/Vue-3-42b883?logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![TresJS](https://img.shields.io/badge/TresJS-3D%20for%20Vue-0ea5e9)](https://tresjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white)](https://threejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-646cff?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![UnoCSS](https://img.shields.io/badge/UnoCSS-333333?logo=unocss&logoColor=white)](https://unocss.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 ![treejs-desk-vue-1](https://github.com/user-attachments/assets/6ddb0f47-bdd0-4256-a737-bbf9e5b3bedf)
 
-Un configurador interactivo de escritorio en 3D construido con Vue 3 y TresJS (Three.js).
+Configurador 3D interactivo para personalizar un standing desk con Vue 3 + TresJS.
+Interactive 3D configurator to customize a standing desk with Vue 3 + TresJS.
 
-## 📋 Descripción
+## 🌐 Navegación rápida / Quick Navigation
 
-Aplicación web que permite personalizar un escritorio de pie (standing desk) con diferentes opciones de acabados y colores. El configurador incluye una vista 3D interactiva con modelos de laptop, audífonos y planta decorativa.
+- [🇪🇸 Versión en español](#-versión-en-español)
+- [🇬🇧 English version](#-english-version)
 
-## ✨ Características
+---
 
-- Vista 3D interactiva con controles de órbita
-- Personalización del acabado de la mesa
-- Selección de colores para accesorios (laptop, audífonos, planta)
-- Renderizado optimizado "on-demand"
-- Interfaz de usuario intuitiva con previsualización en tiempo real
-- Herramientas de debug con gráficos de rendimiento
+## 🇪🇸 Versión en español
 
-## 🛠️ Tecnologías
+### 📋 Descripción
 
-- **Vue 3** - Framework JavaScript
-- **TresJS** - Integración de Three.js con Vue
-- **TypeScript** - Tipado estático
-- **Vite** - Build tool
-- **UnoCSS** - Framework CSS
+Aplicación web para configurar un escritorio de pie en 3D, con cambios de acabados y colores en tiempo real.
 
-## 📦 Instalación
+### ✨ Características
+
+- Escena 3D interactiva con controles de órbita.
+- Personalización de acabados de la mesa.
+- Cambio de color en accesorios (laptop, audífonos y planta).
+- Renderizado optimizado bajo demanda.
+- UI simple y enfocada en previsualización instantánea.
+- Soporte de herramientas de debug y métricas de rendimiento.
+
+### 🧰 Stack tecnológico
+
+- Vue 3
+- TresJS / Three.js
+- TypeScript
+- Vite
+- UnoCSS
+
+### ⚙️ Instalación
 
 ```bash
 pnpm install
 ```
 
-## 🚀 Desarrollo
+### 🚀 Desarrollo
 
 ```bash
 pnpm dev
 ```
 
-La aplicación estará disponible en `http://localhost:5173`
+Disponible en `http://localhost:5173`.
 
-## 🏗️ Build
+### 🏗️ Build
 
 ```bash
 pnpm build
 ```
 
-## 🤝 Contribuciones
+### 🤝 Contribuciones
 
-¡Las contribuciones son bienvenidas! Si quieres proponer mejoras, abre un issue o envía una Pull Request.
+¿Tienes una idea para mejorar el configurador? Las contribuciones son bienvenidas.
 
-## 📄 Licencia
+- Abre un issue para discutir cambios.
+- Envía una Pull Request con tu propuesta.
+- Si puedes, añade contexto técnico y una breve demo/captura.
+
+### 📄 Licencia
 
 MIT
 
 ---
 
-# 3D Desk Configurator 🖥️
+## 🇬🇧 English version
 
-![treejs-desk-vue-1](https://github.com/user-attachments/assets/6ddb0f47-bdd0-4256-a737-bbf9e5b3bedf)
+### 📋 Description
 
-An interactive 3D desk configurator built with Vue 3 and TresJS (Three.js).
+Web application to configure a standing desk in 3D, with real-time finish and color customization.
 
-## 📋 Description
+### ✨ Features
 
-A web application that lets users customize a standing desk with different finish and color options. The configurator includes an interactive 3D view with laptop, headphones, and decorative plant models.
+- Interactive 3D scene with orbit controls.
+- Desk finish customization.
+- Accessory color selection (laptop, headphones, and plant).
+- Optimized on-demand rendering.
+- Simple UI focused on instant visual feedback.
+- Debug tools and performance metrics support.
 
-## ✨ Features
+### 🧰 Tech stack
 
-- Interactive 3D view with orbit controls
-- Desk finish customization
-- Color selection for accessories (laptop, headphones, plant)
-- Optimized "on-demand" rendering
-- Intuitive UI with real-time preview
-- Debug tools with performance graphs
+- Vue 3
+- TresJS / Three.js
+- TypeScript
+- Vite
+- UnoCSS
 
-## 🛠️ Technologies
-
-- **Vue 3** - JavaScript framework
-- **TresJS** - Three.js integration for Vue
-- **TypeScript** - Static typing
-- **Vite** - Build tool
-- **UnoCSS** - CSS framework
-
-## 📦 Installation
+### ⚙️ Installation
 
 ```bash
 pnpm install
 ```
 
-## 🚀 Development
+### 🚀 Development
 
 ```bash
 pnpm dev
 ```
 
-The app will be available at `http://localhost:5173`
+Available at `http://localhost:5173`.
 
-## 🏗️ Build
+### 🏗️ Build
 
 ```bash
 pnpm build
 ```
 
-## 🤝 Contributing
+### 🤝 Contributing
 
-Contributions are welcome! If you'd like to suggest improvements, feel free to open an issue or submit a Pull Request.
+Ideas and improvements are welcome.
 
-## 📄 License
+- Open an issue to discuss what you want to change.
+- Submit a Pull Request with your proposal.
+- Include technical context and a short demo/screenshot when possible.
+
+### 📄 License
 
 MIT
+
+---
+
+## 👨‍💻 Portfolio
+
+Fr4n0m - [codebyfran.es](https://codebyfran.es)
